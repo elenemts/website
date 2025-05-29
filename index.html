@@ -26,6 +26,51 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Timeline links -->
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Time line CSS -->
+
+  <style>
+    ul.timeline {
+    list-style-type: none;
+        position: relative;
+    }
+    ul.timeline:before {
+        content: ' ';
+        background: #d4d9df;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    ul.timeline > li:before {
+        content: '';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #1E5CA2;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+    .timelinehead{
+      color: #1E5CA2;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -57,11 +102,9 @@
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li>
-            <li>
             <div class="gtranslate_wrapper"></div>
-              <script>window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":24,"switcher_horizontal_position":"inline"}</script>
-              <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
-          </li>
+<script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":16,"switcher_horizontal_position":"inline","alt_flags":{"en":"usa"},"switcher_text_color":"#f7f7f7","switcher_arrow_color":"#f2f2f2","switcher_border_color":"#161616","switcher_background_color":"#303030","switcher_background_shadow_color":"#474747","switcher_background_hover_color":"#3a3a3a","dropdown_text_color":"#eaeaea","dropdown_hover_color":"#748393","dropdown_background_color":"#474747"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
           </li>
         </ul>
         
@@ -88,8 +131,8 @@
                 <h1>Bridging Markets, Building Partnerships.</h1>
                 <p>We are a global Export-Import Companyy committed to simplifying international trade.</p>
                 <div class="cta-buttons">
-                  <a href="#" class="btn-primary">Request a Quote</a>
-                  <a href="#" class="btn-secondary">Explore our Services</a>
+                  <a href="contact.html" class="btn-primary">Request a Quote</a>
+                  <a href="products.html" class="btn-secondary">Explore our Products</a>
                 </div>
               </div>
             </div>
@@ -239,83 +282,84 @@
     </section><!-- /About Section -->
 
 
-    <!-- Students Life Block Section -->
-    <section id="students-life-block" class="students-life-block section">
+    <section id="history" class="history section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Students Life</h2>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container section-title" data-aos="fade-up">
+        <h2>How It Works</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+              
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>1965</h4>
+                    <p>Etiam at tincidunt arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                  </div>
+                </div>
 
-        <div class="row align-items-center gy-4">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <div class="students-life-img position-relative">
-              <img src="assets/img/education/education-square-11.webp" class="img-fluid rounded-4 shadow-sm" alt="Students Life">
-              <div class="img-overlay">
-                <h3>Discover Campus Life</h3>
-                <a href="students-life.html" class="explore-btn">Explore More <i class="bi bi-arrow-right"></i></a>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>1982</h4>
+                    <p>Donec dignissim, odio ac imperdiet luctus, ante nisl accumsan justo, nec tempus augue mi in nulla.</p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>1998</h4>
+                    <p>Suspendisse potenti. Nullam lacinia dictum auctor. Phasellus euismod sem at dui imperdiet, ac tincidunt mi placerat.</p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>2010</h4>
+                    <p>Vestibulum ultrices magna ut faucibus sollicitudin. Sed eget venenatis enim, nec imperdiet ex.</p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>2010</h4>
+                    <p>Vestibulum ultrices magna ut faucibus sollicitudin. Sed eget venenatis enim, nec imperdiet ex.</p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="students-life-content">
+          <div class="col-lg-6">
+            <div class="about-image" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/blog/blog-post-4.webp" alt="Campus" class="img-fluid rounded">
 
-              <div class="row g-4 mb-4">
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-people"></i>
-                    </div>
-                    <h4>Student Clubs</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus.</p>
-                  </div>
+              <div class="mission-vision" data-aos="fade-up" data-aos-delay="400">
+                <div class="mission">
+                  <h3>Our Mission</h3>
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
                 </div>
 
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-trophy"></i>
-                    </div>
-                    <h4>Sports Events</h4>
-                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
+                <div class="vision">
+                  <h3>Our Vision</h3>
+                  <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</p>
                 </div>
-
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <h4>Arts &amp; Culture</h4>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-globe-americas"></i>
-                    </div>
-                    <h4>Global Experiences</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="students-life-cta" data-aos="fade-up" data-aos-delay="600">
-                <a href="students-life.html" class="btn btn-primary">View All Student Activities</a>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
-    </section><!-- /Students Life Block Section -->
+    </section><!-- /History Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
