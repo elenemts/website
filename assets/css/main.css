@@ -318,7 +318,7 @@ h6 {
   
   .scrolled .header {
     transform: translateY(-98%);
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid #1e5ca2;
   }
 
   .navmenu ul {
@@ -629,7 +629,6 @@ h6 {
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
 
