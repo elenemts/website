@@ -93,6 +93,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.iamblue{
+  color: #1e5ca2;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -834,7 +837,7 @@ section,
 
 @media (max-width: 576px) {
   .hero .hero-container .hero-content .cta-buttons {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -843,9 +846,8 @@ section,
   padding: 14px 30px;
   border-radius: 6px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 0.5px;
-  display: inline-block;
   transition: all 0.3s ease;
   text-align: center;
 }
